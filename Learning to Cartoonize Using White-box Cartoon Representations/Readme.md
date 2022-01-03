@@ -1,4 +1,4 @@
 # Learning to Cartoonize Using White-box Cartoon Representations
 
 
-(https://s3-us-west-2.amazonaws.com/secure.notion-static.com/334ae8f6-e967-4aab-a9f1-5277134356fc/Untitled.png)
+![image](https://user-images.githubusercontent.com/71298482/147909527-30cf4d28-5319-4ef9-9d06-c0160652e1de.png)
