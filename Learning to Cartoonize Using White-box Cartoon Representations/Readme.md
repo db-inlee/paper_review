@@ -12,3 +12,15 @@ git : https://github.com/SystemErrorWang/White-box-Cartoonization
 - surface representation
 - structure representation
 - texture representation
+
+**Surface Reperesentation**
+
+smooth 한 surface를 표현한다 → 만화가가 detail한 retouch 하기 전 대충 draft 하는 것에 착안한 방법
+
+**Structure Representation**
+
+sparse color block을 표현하기 위한 방법 → celliloid cartoon처럼 블럭을 색칠하는 것에 착안
+
+**Texture Representation**
+
+color와 무관한 texture 및 edge를 표현하기 위함
