@@ -34,7 +34,9 @@ The Surface Representation
 
 - Image Smoothing과 global semantic structure를 유지하기 위해 guided filter 사용
     - guided filter?
+    
      ![image](https://user-images.githubusercontent.com/71298482/147997236-6bcf1b61-2b24-470e-b8b3-9f06796bb153.png)
+    
     - denoising을 위해 gaussian filter 적용시, edge가 뭉개지는 문제 존재
     - bilateral filter 사용시 edge는 살지만, 영상 기울기값 부근에서 왜곡이 발생할 수 있음
 
