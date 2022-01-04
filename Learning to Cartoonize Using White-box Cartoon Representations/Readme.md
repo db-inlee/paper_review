@@ -40,6 +40,12 @@ The Surface Representation
     - denoising을 위해 gaussian filter 적용시, edge가 뭉개지는 문제 존재
     - bilateral filter 사용시 edge는 살지만, 영상 기울기값 부근에서 왜곡이 발생할 수 있음
 
+- Loss
+   
+   
+   ![image](https://user-images.githubusercontent.com/71298482/147998018-b6a37097-46ca-4eee-82e2-d140d9d35aae.png)
+
+
 The Structure Representation
 
 - Felzenszwalb의 Superpixel image segementation 방법을 활용 + Selective Search
@@ -53,7 +59,19 @@ https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=laonple&logN
 
     - high level feature extract을 위해 vgg16 적용
 
+- Loss
+
+![image](https://user-images.githubusercontent.com/71298482/147998061-09bb6fce-913d-4c99-bafa-978c328cdab3.png)
+
+
+
+
 The Texture Representation
 
 - High- frequency feature 표현
     - real world photo와 cartoon 은 color, luminance(밝기) 정보로 쉽게 구분이 가능 → high frequency texture를 유지하면서 color 와 luminance의 영향을 줄여주기 위해 흑백으로 변환 + random하게 rgb를  섞어줌
+
+- Loss
+
+![image](https://user-images.githubusercontent.com/71298482/147998087-8c4d561d-c4ff-4535-84f3-522c52c2453a.png)
+
