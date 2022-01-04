@@ -1,5 +1,5 @@
 # Learning to Cartoonize Using White-box Cartoon Representations
-paper : https://arxiv.org/abs/2107.04551
+paper : https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Learning_to_Cartoonize_Using_White-Box_Cartoon_Representations_CVPR_2020_paper.pdf
 
 
 git : https://github.com/SystemErrorWang/White-box-Cartoonization
