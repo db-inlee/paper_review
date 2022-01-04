@@ -45,3 +45,13 @@ The Structure Representation
 
 https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=laonple&logNo=220925179894
 
+- Region의 컬러값을 평균으로 취하지는 않고, adaptive하게 결정
+    - adaptive 말고 average로 적용시, 전역적인 contrast가 낮거나 어두운 이미지를 얻거나, hazing effect 유발
+    ![image](https://user-images.githubusercontent.com/71298482/147997374-b10256bf-f1c3-4f17-9471-2c5d83191cd9.png)
+
+    - high level feature extract을 위해 vgg16 적용
+
+The Texture Representation
+
+- High- frequency feature 표현
+    - real world photo와 cartoon 은 color, luminance(밝기) 정보로 쉽게 구분이 가능 → high frequency texture를 유지하면서 color 와 luminance의 영향을 줄여주기 위해 흑백으로 변환 + random하게 rgb를  섞어줌
